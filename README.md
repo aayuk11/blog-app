@@ -24,7 +24,7 @@ Blogify is a dynamic blogging platform that allows users to create, edit, and sh
 - **View Blogs Without Signup:** Users can browse blog posts without needing to sign up.
 
 ## **Security 🛡️**
-- **Password Hashing:** Utilizes bcrypt to securely hash user passwords, protecting user credentials.
+- **Password Hashing:** Utilizes crypto module and salt to securely hash user passwords, protecting user credentials.
 - **Session Management:** Ensures secure user authentication and session management.
 
 ## **Tech Stack Overview**
